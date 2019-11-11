@@ -9,6 +9,8 @@
 
 > Remove VSCode file tree hover title.
 
+![](screenshot.png)
+
 ## Installation
 
 ```shell
@@ -37,6 +39,10 @@ e.g.
 $ vsc-patch --dir "C:/Program Files/Microsoft VS Code"
 Please restart VSCode to see effect.
 ```
+
+Make sure you have write access rights to the VSCode files.
+
+**Maybe you should run as Administrator.**
 
 ## Contributing
 
