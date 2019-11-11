@@ -1,0 +1,44 @@
+{
+  "name": "vsc-patch",
+  "version": "0.1.0",
+  "description": "Remove VSCode file tree hover title.",
+  "keywords": [
+    "vsc-patch",
+    "cli",
+    "zce"
+  ],
+  "homepage": "https://github.com/zce/vsc-patch#readme",
+  "bugs": {
+    "url": "https://github.com/zce/vsc-patch/issues"
+  },
+  "license": "MIT",
+  "author": "zce <w@zce.me> (https://zce.me)",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "bin": {
+    "vsc-patch": "bin/vsc-patch.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/vsc-patch.git"
+  },
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "dependencies": {
+    "commander": "^4.0.0"
+  },
+  "devDependencies": {
+    "standard": "^14.3.1"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "preferGlobal": true
+}
