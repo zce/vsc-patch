@@ -57,7 +57,7 @@ Make sure you have write access rights to the VSCode files.
 
 ## License
 
-[MIT](LICENSE) &copy; zce <w@zce.me> (https://zce.me)
+[MIT](LICENSE) &copy; [汪磊](https://zce.me)
 
 
 
