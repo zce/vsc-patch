@@ -1,6 +1,6 @@
 {
   "name": "vsc-patch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Remove VSCode file tree hover title.",
   "keywords": [
     "vsc-patch",
@@ -29,7 +29,8 @@
     "url": "git+https://github.com/zce/vsc-patch.git"
   },
   "scripts": {
-    "lint": "standard --fix"
+    "lint": "standard --fix",
+    "ship": "yarn publish --registry=https://registry.yarnpkg.com"
   },
   "dependencies": {
     "commander": "^4.0.0"
