@@ -33,7 +33,7 @@
     "ship": "yarn publish --registry=https://registry.yarnpkg.com"
   },
   "dependencies": {
-    "commander": "^4.0.0"
+    "commander": "^8.0.0"
   },
   "devDependencies": {
     "standard": "14.3.4"
